@@ -1,0 +1,17 @@
+# Copy everything below into a file named .env in the root directory
+
+DATABASE_URL="postgresql://neondb_owner:npg_GpnkO8HsWMD2@ep-gentle-mud-ahw97wkm-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+
+NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_SECRET="lGTjVlsz6Zd22ov5dH5l0KPNbrwBSDmu6PesZUP8mHk="
+
+GOOGLE_CLIENT_ID="YOUR_GOOGLE_CLIENT_ID_HERE"
+GOOGLE_CLIENT_SECRET="YOUR_GOOGLE_CLIENT_SECRET_HERE"
+
+GMAIL_USER="es@ipndigital.com"
+GMAIL_APP_PASSWORD="zowflbhyidsbxbav"
+
+ADMIN_EMAIL="es@ipndigital.com"
+
+NODE_ENV="development"
+

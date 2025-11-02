@@ -1,0 +1,82 @@
+# Copy these environment variables to Vercel
+# Go to: Vercel Dashboard → Your Project → Settings → Environment Variables
+
+# ==========================================
+# Variable 1: DATABASE_URL
+# ==========================================
+Key: DATABASE_URL
+Value: postgresql://neondb_owner:npg_GpnkO8HsWMD2@ep-gentle-mud-ahw97wkm-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+Environment: Production, Preview, Development (select all)
+
+# ==========================================
+# Variable 2: NEXTAUTH_URL
+# ==========================================
+Key: NEXTAUTH_URL
+Value: https://your-project-name.vercel.app
+Note: Replace "your-project-name" with your actual Vercel project name after deployment
+Environment: Production, Preview, Development (select all)
+
+# ==========================================
+# Variable 3: NEXTAUTH_SECRET
+# ==========================================
+Key: NEXTAUTH_SECRET
+Value: lGTjVlsz6Zd22ov5dH5l0KPNbrwBSDmu6PesZUP8mHk=
+Environment: Production, Preview, Development (select all)
+
+# ==========================================
+# Variable 4: GOOGLE_CLIENT_ID
+# ==========================================
+Key: GOOGLE_CLIENT_ID
+Value: YOUR_GOOGLE_CLIENT_ID_HERE
+Note: Get from Google Cloud Console → APIs & Services → Credentials
+Environment: Production, Preview, Development (select all)
+
+# ==========================================
+# Variable 5: GOOGLE_CLIENT_SECRET
+# ==========================================
+Key: GOOGLE_CLIENT_SECRET
+Value: YOUR_GOOGLE_CLIENT_SECRET_HERE
+Note: Get from Google Cloud Console → APIs & Services → Credentials
+Environment: Production, Preview, Development (select all)
+
+# ==========================================
+# Variable 6: GMAIL_USER
+# ==========================================
+Key: GMAIL_USER
+Value: es@ipndigital.com
+Environment: Production, Preview, Development (select all)
+
+# ==========================================
+# Variable 7: GMAIL_APP_PASSWORD
+# ==========================================
+Key: GMAIL_APP_PASSWORD
+Value: zowflbhyidsbxbav
+Environment: Production, Preview, Development (select all)
+
+# ==========================================
+# Variable 8: ADMIN_EMAIL
+# ==========================================
+Key: ADMIN_EMAIL
+Value: es@ipndigital.com
+Environment: Production, Preview, Development (select all)
+
+# ==========================================
+# Variable 9: NODE_ENV
+# ==========================================
+Key: NODE_ENV
+Value: production
+Environment: Production, Preview, Development (select all)
+
+# ==========================================
+# Instructions:
+# ==========================================
+1. Go to Vercel Dashboard → Your Project → Settings → Environment Variables
+2. Click "Add New"
+3. For each variable above:
+   - Paste the Key name
+   - Paste the Value
+   - Select all environments (Production, Preview, Development)
+   - Click "Save"
+4. After deployment, update NEXTAUTH_URL with your actual Vercel URL
+5. Redeploy after updating NEXTAUTH_URL
+
