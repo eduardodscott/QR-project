@@ -23,7 +23,7 @@
     "prisma": "^5.15.0",
     "next-intl": "^3.10.0",
     "qrcode": "^1.5.3",
-    "nodemailer": "^6.9.9",
+    "nodemailer": "^7.0.7",
     "zod": "^3.23.8",
     "bcryptjs": "^2.4.3",
     "clsx": "^2.1.1",

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import SessionProvider from '@/components/providers/SessionProvider'
 
 export const metadata: Metadata = {
   title: 'QR-Chat Platform',
@@ -11,5 +12,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return children
+  return (
+    <html lang="en">
+      <body>
+        <SessionProvider>{children}</SessionProvider>
+      </body>
+    </html>
+  )
 }
