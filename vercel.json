@@ -1,10 +1,5 @@
 {
-  "crons": [
-    {
-      "path": "/api/cron/expire-chats",
-      "schedule": "*/10 * * * *"
-    }
-  ]
+  "crons": []
 }
 
 
