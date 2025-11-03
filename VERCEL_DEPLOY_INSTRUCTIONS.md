@@ -1,6 +1,6 @@
 # Vercel Deployment - Step by Step Instructions
 
-Your code is now on GitHub: https://github.com/eduardodscott/qr-chat-platform
+Your code is now on GitHub: https://github.com/eduardodscott/QR-project
 
 Follow these steps to deploy to Vercel:
 
@@ -18,7 +18,7 @@ Follow these steps to deploy to Vercel:
 
 1. After signing in, click **"Add New..."** → **"Project"**
 2. Click **"Import Git Repository"**
-3. You should see your repository: `eduardodscott/qr-chat-platform`
+3. You should see your repository: `eduardodscott/QR-project`
 4. Click **"Import"** next to it
 
 ---
